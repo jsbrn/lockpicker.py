@@ -49,6 +49,8 @@ Hope this helps you!
 
 Here's some things I'd like to do with this script in v2:
 
-1. Sort the wordset alphabetically.
+1. Sort the wordset by the position of the letters on the lock.
 
 1. If no wordset is provided, generate all possible letter combinations for the lock.
+
+1. Add an option to generate all possible letter combinations, sorted by position on lock rather than alphabetically.
