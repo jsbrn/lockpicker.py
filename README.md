@@ -37,8 +37,18 @@ You can also find other wordsets online if you want. I found the included sets f
 
 1. The script will search the wordlist and output possible words to try on your lock, saving them in `printable.txt`. You can easily print out that text file and bring it with you if the lock is not easily accessible indoors.
 
-2. When you exhaust a list, add the words to `attempts.txt` and the script will no longer include those words in future outputs. Add a newline character to the end of the attempts file or the last word will still show up (feel free to fix that bug if you want).
+1. When you exhaust a list, add the words to `attempts.txt` and the script will no longer include those words in future outputs. Add a newline character to the end of the attempts file or the last word will still show up (feel free to fix that bug if you want).
 
-3. Bring some music with you. All in all, I had a list of about 650 words to go through. It only took about 300 before it unlocked. About 20-30 minutes.
+1. The script will not sort the words by alphabetical order (yet). If your wordset is sorted alphabetically, you will be able to try words at a much faster rate.
+
+1. Bring some music with you. All in all, I had a list of about 650 words to go through. It only took about 300 before it unlocked. About 20-30 minutes.
 
 Hope this helps you!
+
+## Future Features
+
+Here's some things I'd like to do with this script in v2:
+
+1. Sort the wordset alphabetically.
+
+1. If no wordset is provided, generate all possible letter combinations for the lock.
